@@ -1,0 +1,141 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Roblox The Classic", HidePremium = false, SaveConfig = true, ConfigFolder = "Roblox The Classic"})
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script Made By Caomod",
+	Image = "rbxassetid://4483345998",
+	Time = 10
+})
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Section"
+})
+
+Tab:AddButton({
+	Name = "The Classic",
+	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/TheClassic", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Blade Ball",
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/ClassicBladeBall", true))()   
+  	end    
+})
+
+Tab:AddButton({
+	Name = "a dusty trip",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/ClassicAdustyTrip", true))()       
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Livetopia",
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/ClassicLivetopia", true))()      
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Dress To Impress",
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/ClassicDressToImpress", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Gunfight arena",
+	Callback = function()
+
+loadstring(game:HttpGet(('https://pastefy.app/FL5mxhtj/raw'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Dragon Adventures",
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/ClassicDragon", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Tower Defense",
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/ClassicTowerDefense", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Bed War",
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/ClassicBedWars", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Driving Empire",
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/ClassicDrivingEmpire", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Clip It",
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/ClassicClipIt", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Bee Swarm",
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/ClassicBeeSwarm", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Arsenal",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/ClassicArsenal", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Adopt Me",
+	Callback = function()
+
+loadstring(game:HttpGet(('https://pastefy.app/JLMg6KtF/raw'),true))()
+  	end    
+})
+
+local Tab2 = Window:MakeTab({
+	Name = "Misc",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab2:AddLabel("Script Made By Caomod")
+Tab2:AddLabel("See more Script at YouTube Cáo mod")
+Tab2:AddLabel("Thanks for reading")
